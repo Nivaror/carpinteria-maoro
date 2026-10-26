@@ -371,14 +371,19 @@ strong { font-weight: 600; }
 .lightbox-caption h3 { color: var(--cream); font-size: 1.1rem; }
 .lightbox-caption p { color: rgba(246,241,231,.7); font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; margin: 4px 0 0; }
 .lightbox-close, .lightbox-prev, .lightbox-next {
-  position: absolute; color: var(--cream); font-size: 2rem; line-height: 1; padding: 12px;
-  background: rgba(255,255,255,.06); border-radius: 50%; width: 48px; height: 48px;
-  display: grid; place-items: center;
+  position: absolute; color: var(--cream);
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12);
+  border-radius: 50%; width: 48px; height: 48px; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: background .2s, transform .2s;
 }
+.lightbox-close svg, .lightbox-prev svg, .lightbox-next svg { width: 22px; height: 22px; display: block; }
 .lightbox-close { top: 16px; right: 16px; }
 .lightbox-prev { left: 16px; top: 50%; transform: translateY(-50%); }
 .lightbox-next { right: 16px; top: 50%; transform: translateY(-50%); }
-.lightbox-close:hover, .lightbox-prev:hover, .lightbox-next:hover { background: rgba(255,255,255,.14); }
+.lightbox-close:hover { background: rgba(255,255,255,.18); transform: scale(1.06); }
+.lightbox-prev:hover { background: rgba(255,255,255,.18); transform: translateY(-50%) scale(1.06); }
+.lightbox-next:hover { background: rgba(255,255,255,.18); transform: translateY(-50%) scale(1.06); }
 
 /* ---------- WhatsApp float ---------- */
 .whatsapp-float {
