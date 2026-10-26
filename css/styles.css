@@ -125,8 +125,18 @@ strong { font-weight: 600; }
   z-index: 39;
 }
 .nav-backdrop.is-open { opacity: 1; pointer-events: auto; }
-.nav-drawer ul { display: flex; flex-direction: column; gap: 18px; }
-.nav-drawer a { font-family: var(--font-display); font-size: 1.6rem; }
+.nav-drawer ul { display: flex; flex-direction: column; gap: 4px; }
+.nav-drawer ul a {
+  display: block;
+  width: 100%;
+  padding: 12px 4px;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  border-radius: var(--r);
+  transition: background .15s;
+}
+.nav-drawer ul a:hover,
+.nav-drawer ul a:focus-visible { background: rgba(36,28,22,.06); }
 
 @media (min-width: 860px) {
   .nav-list { display: flex; }
