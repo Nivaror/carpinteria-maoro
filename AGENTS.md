@@ -194,7 +194,7 @@ derecha. En mobile, imagen arriba y texto abajo.
 20 años de oficio · MDF de primera · Instalación incluida · Garantía 6 meses
 
 ### Proyectos
-Grilla con filtros (Todos · Cocinas · Placares · Baños · Living) y lightbox
+Grilla con filtros (Todos · Cocinas · Placares · Baños · Dormitorio · Living) y lightbox
 accesible (Esc, flechas, foco atrapado).
 
 **Grilla mixta obligatoria:** 5 tiles verticales 4:5 + la foto de cocina como tile
@@ -205,11 +205,11 @@ mobile: 1.
 | # | Archivo original | Título | Material | Filtro |
 |---|---|---|---|---|
 | 1 | `IMG_20260514_181358724_NV.jpg` | Credenza de cuatro cajones | MDF enchapado roble | Living |
-| 2 | `IMG_20260102_184825993_MFNR_HDR.jpg` | Peinador con espejo y luz LED | MDF laqueado blanco | Baños |
+| 2 | `IMG_20260102_184825993_MFNR_HDR.jpg` | Peinador con espejo y luz LED | MDF laqueado blanco | Dormitorio |
 | 3 | `IMG_20260524_151744563_MFNR_HDR.jpg` | Placard de dos puertas | MDF enchapado nogal | Placares |
 | 4 | `IMG_20260607_170813468_MFNR_HDR.jpg` | Alacenas de cocina | MDF laqueado blanco | Cocinas |
 | 5 | `20250308_180315.jpg` | Rack de TV | MDF laqueado blanco y gris | Living |
-| 6 | `20250929_175034_HDR.jpg` | Zapatero con frentes abatibles | MDF laqueado gris | Living |
+| 6 | `20250929_175034_HDR.jpg` | Zapatero con frentes abatibles | MDF laqueado gris | Dormitorio |
 
 No usar `IMG_20260607_170813468_MFNR_HDR (1).jpg` (duplicado exacto).
 
