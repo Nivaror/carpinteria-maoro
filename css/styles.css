@@ -233,7 +233,7 @@ strong { font-weight: 600; }
 @media (min-width: 1024px) { .services-grid { grid-template-columns: repeat(3, 1fr); } }
 
 .service { background: var(--cream); border: 1px solid var(--line); padding: 28px 24px; border-radius: var(--r); position: relative; }
-.section--alt .service { background: var(--cream); }
+.section--alt .service:not(.service--featured) { background: var(--cream); }
 .service--featured { background: var(--espresso); color: var(--cream); border-color: var(--espresso); grid-column: 1 / -1; }
 @media (min-width: 1024px) { .service--featured { grid-column: span 2; } }
 .service--featured h3, .service--featured p { color: var(--cream); }
