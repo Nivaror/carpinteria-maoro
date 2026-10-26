@@ -155,7 +155,7 @@ strong { font-weight: 600; }
 .hero-lead { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--muted); max-width: 52ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
 .hero-media {
-  position: relative; aspect-ratio: 4/5; overflow: hidden; border-radius: var(--r);
+  position: relative; aspect-ratio: 4/3; overflow: hidden; border-radius: var(--r);
   background: var(--cream-deep);
   box-shadow: var(--shadow-md);
 }

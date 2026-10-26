@@ -180,7 +180,7 @@ Inicio · Proyectos · Servicios · Proceso · Nosotros · Contacto + botón
 menú full-screen y botón flotante de WhatsApp.
 
 ### Hero
-Split: panel espresso con el texto a la izquierda, credenza de roble a sangre a la
+Split: panel espresso con el texto a la izquierda, alacenas de cocina a sangre a la
 derecha. En mobile, imagen arriba y texto abajo.
 
 > **Cocinas y muebles a medida, hechos para durar.**
@@ -304,7 +304,8 @@ Un solo `js/main.js` como módulo. Nada de librerías.
 - Meta description con zona + servicio + "presupuesto sin cargo". 150–160 caracteres.
 - `lang="es-AR"`.
 - `canonical` y `og:url` apuntando a `https://maorocarpinteria.com/`.
-- Open Graph + Twitter card. `og:image` a **1200×630** (recorte propio, no la foto
+- Open Graph + Twitter card. Imagen: alacenas de cocina recortada a 1200×630.
+  `og:image` a **1200×630** (recorte propio, no la foto
   cruda), con `og:image:width`, `og:image:height` y `og:image:alt`.
 - `theme-color` `#241C16`.
 - Favicon: `favicon.svg` + `apple-touch-icon.png` 180×180 + `icon-192.png` /
