@@ -281,7 +281,7 @@ strong { font-weight: 600; }
 /* ---------- Nosotros ---------- */
 .nosotros-grid { display: grid; grid-template-columns: 1fr; gap: 40px; align-items: center; margin-bottom: 48px; }
 @media (min-width: 900px) { .nosotros-grid { grid-template-columns: 1fr 1.1fr; gap: 64px; } }
-.nosotros-media { aspect-ratio: 1/1; overflow: hidden; border-radius: var(--r); background: var(--cream-deep); }
+.nosotros-media { aspect-ratio: 3/5; overflow: hidden; border-radius: var(--r); background: var(--cream-deep); }
 .nosotros-media picture, .nosotros-media img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.92) contrast(1.04) sepia(.06); }
 .nosotros-copy h2 { margin-bottom: 20px; }
 .nosotros-copy p { color: var(--muted); }
