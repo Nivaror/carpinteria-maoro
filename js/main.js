@@ -12,6 +12,16 @@ const PROJECTS = [
   { title: "Zapatero con frentes abatibles", material: "MDF laqueado gris", img: "proyecto-06-zapatero-1200.jpg", alt: "Zapatero de MDF gris con tres frentes abatibles." },
 ];
 
+// ---------- Logo -> inicio ----------
+const brand = document.querySelector(".brand");
+if (brand) {
+  brand.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    history.replaceState(null, "", "#top");
+  });
+}
+
 // ---------- Header sticky ----------
 const header = document.querySelector(".site-header");
 const onScroll = () => {
