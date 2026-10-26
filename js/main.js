@@ -24,15 +24,18 @@ onScroll();
 // ---------- Menú mobile ----------
 const toggle = document.querySelector(".nav-toggle");
 const drawer = document.querySelector(".nav-drawer");
+const backdrop = document.getElementById("nav-backdrop");
 if (toggle && drawer) {
   const setOpen = (open) => {
     toggle.setAttribute("aria-expanded", String(open));
     drawer.classList.toggle("is-open", open);
+    if (backdrop) backdrop.classList.toggle("is-open", open);
     drawer.setAttribute("aria-hidden", String(!open));
     document.body.style.overflow = open ? "hidden" : "";
   };
   toggle.addEventListener("click", () => setOpen(toggle.getAttribute("aria-expanded") !== "true"));
   drawer.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+  if (backdrop) backdrop.addEventListener("click", () => setOpen(false));
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && drawer.classList.contains("is-open")) setOpen(false); });
 }
 

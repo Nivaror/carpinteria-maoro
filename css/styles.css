@@ -103,12 +103,21 @@ strong { font-weight: 600; }
 .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 .nav-drawer {
-  position: fixed; inset: var(--header-h) 0 0 0; background: var(--cream);
+  position: fixed; inset: var(--header-h) 0 0 0; background: var(--cream-deep);
   padding: 32px var(--gutter); display: flex; flex-direction: column; gap: 24px;
   transform: translateX(100%); transition: transform var(--dur) var(--ease);
   z-index: 40;
+  box-shadow: -12px 0 40px rgba(36,28,22,.18);
+  overflow-y: auto;
 }
 .nav-drawer.is-open { transform: translateX(0); }
+
+.nav-backdrop {
+  position: fixed; inset: 0; background: rgba(36,28,22,.45);
+  opacity: 0; pointer-events: none; transition: opacity var(--dur) var(--ease);
+  z-index: 39;
+}
+.nav-backdrop.is-open { opacity: 1; pointer-events: auto; }
 .nav-drawer ul { display: flex; flex-direction: column; gap: 18px; }
 .nav-drawer a { font-family: var(--font-display); font-size: 1.6rem; }
 
@@ -117,6 +126,7 @@ strong { font-weight: 600; }
   .header-cta { display: inline-flex; }
   .nav-toggle { display: none; }
   .nav-drawer { display: none; }
+  .nav-backdrop { display: none; }
 }
 
 /* ---------- Buttons ---------- */
