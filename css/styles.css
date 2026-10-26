@@ -71,12 +71,6 @@ strong { font-weight: 600; }
 .section { padding-block: clamp(64px, 9vw, 128px); scroll-margin-top: var(--header-h); }
 .section--alt { background: var(--cream-deep); }
 
-.skip-link {
-  position: absolute; left: 12px; top: -40px; background: var(--espresso); color: var(--cream);
-  padding: 8px 14px; border-radius: var(--r); z-index: 100; transition: top .2s;
-}
-.skip-link:focus { top: 12px; }
-
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
@@ -100,6 +94,7 @@ strong { font-weight: 600; }
 .nav-list a { font-size: .9rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); transition: color .2s; }
 .nav-list a:hover { color: var(--espresso); }
 
+.header-cta { display: none; }
 .header-cta { display: none; }
 .nav-toggle { display: flex; flex-direction: column; gap: 5px; width: 30px; height: 22px; margin-left: auto; }
 .nav-toggle span { height: 2px; background: var(--espresso); border-radius: 2px; transition: transform .25s, opacity .2s; }
