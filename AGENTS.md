@@ -138,7 +138,7 @@ venden honestidad. Unificarlas con:
 `proyecto-01-credenza-800.webp` y `proyecto-01-credenza-800.jpg`.
 Slugs: `proyecto-01-credenza`, `proyecto-02-peinador`, `proyecto-03-placard`,
 `proyecto-04-cocina`, `proyecto-05-rack`, `proyecto-06-zapatero`,
-`taller-general`, `carpintero-trabajando`.
+`taller-general`, `retrato-alberto`.
 
 **La grilla es mixta, no uniforme.** Verificar orientación antes de recortar:
 
@@ -151,7 +151,7 @@ Slugs: `proyecto-01-credenza`, `proyecto-02-peinador`, `proyecto-03-placard`,
 | Rack | 1252×1670 | vertical | 4:5 · tile |
 | Zapatero | 1252×1670 | vertical | 4:5 · tile |
 | Taller general | **2218×1670** | **horizontal** | 21:9 · banda full-width |
-| Carpintero trabajando | **842×1396** | **vertical** | 3:5 · sin recorte (origen) |
+| Retrato | **2226×1670** | **horizontal** | 1:1 · recorte cuadrado |
 
 **Guía de encuadre (no improvisar):**
 
@@ -164,8 +164,8 @@ Slugs: `proyecto-01-credenza`, `proyecto-02-peinador`, `proyecto-03-placard`,
 - **Alacenas:** apaisado. **No** recortar a 4:5, le corta las alacenas. Es el tile
   destacado y el servicio estrella: si queda mal, el sitio pierde.
 - **Rack y zapatero:** ya están limpios, recorte completo.
-- **Carpintero trabajando:** usar tal cual (3:5). Es un screenshot de 842 px: no
-  pasarla de 800 px de ancho. Centrar el encuadre en el carpintero y el banco.
+- **Retrato:** cuadrado centrado en la cara. La foto está algo blanda: no pasarla
+  de 800 px de ancho.
 - **Taller general:** banda 21:9 con overlay oscuro para el texto.
 
 Escalar y comprimir con `sharp` (WebP q=78, JPG q=80). Objetivo: **< 150 KB por
@@ -341,7 +341,7 @@ Un solo `js/main.js` como módulo. Nada de librerías.
 - Alacenas: "Alacenas de cocina de MDF laqueado blanco con puertas abiertas."
 - Rack: "Rack de TV de MDF laqueado en blanco y gris."
 - Zapatero: "Zapatero de MDF gris con tres frentes abatibles."
-- Carpintero trabajando: "Alberto Oro trabajando en el taller, tallando una pieza sobre el banco de trabajo."
+- Retrato: "Alberto Oro en su taller de carpintería, con las herramientas de fondo."
 - Taller: "Interior del taller de carpintería con mesas de trabajo y madera apilada."
 
 ## 10. Reglas de contenido (no romper)
