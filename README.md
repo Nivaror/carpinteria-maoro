@@ -4,7 +4,7 @@ Landing para el taller de Alberto, creada a partir del formulario y del álbum d
 
 ## Ver la página
 
-Versión publicada en Vercel: **https://maoro-carpinteria.vercel.app/**. Proyecto `maoro-carpinteria` del equipo `nivaror`. Código fuente en el repositorio privado [Nivaror/carpinteria-maoro](https://github.com/Nivaror/carpinteria-maoro).
+Versión publicada en Vercel: **https://maoro-carpinteria.vercel.app/**. Proyecto `maoro-carpinteria` del equipo `nivaror`. Código fuente en el repositorio público [Nivaror/carpinteria-maoro](https://github.com/Nivaror/carpinteria-maoro).
 
 La versión vigente conserva la portada con la alacena abierta, cinco trabajos con sus entornos originales, el formulario ampliado y la mejora del desplazamiento. El título de la pestaña es «Maoro Carpintería | Muebles a medida». El 28/10/2026 se publicó una revisión de SEO y se cambió el nombre público del zapatero a «rebatible».
 
@@ -67,7 +67,7 @@ La página carga tipografías de Google Fonts con alternativas del sistema. Las 
 
 ## Publicación desde GitHub
 
-La rama `main` de este repositorio conserva la versión vigente del código. La publicación actual en Vercel todavía no está conectada a GitHub: el equipo `nivaror` usa Hobby y Vercel no permite conectar repositorios privados de una organización en ese plan. Hasta definir un hosting compatible, los cambios en `main` **no** actualizan la página automáticamente. El proyecto estático se sirve desde `dist/`, que contiene todas las fotos y demás recursos visibles. `referencias/` conserva originales y documentación para uso interno; no se publica en el sitio.
+La rama `main` de este repositorio conserva la versión vigente del código y está conectada al proyecto existente en Vercel. Los cambios que se suben a `main` activan un despliegue automático de producción. El proyecto estático se sirve desde `dist/`, que contiene todas las fotos y demás recursos visibles. `referencias/` conserva originales y documentación de trabajo: no se publica como parte del sitio, pero sí queda accesible en este repositorio público.
 
 Antes de subir un cambio, ejecutá `npm run check`. Si se modifica el contenido o la galería, confirmá que los archivos actualizados de `dist/` también estén en el commit. Una vez que el dominio propio esté registrado, actualizá las URL absolutas de SEO indicadas arriba.
 
