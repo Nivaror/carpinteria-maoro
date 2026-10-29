@@ -51,16 +51,15 @@
     "height": 1448
   },
   {
-    "slug": "panel-listones",
-    "title": "Panel decorativo con listones",
-    "category": "muebles",
-    "label": "DETALLE A MEDIDA",
-    "description": "Panel blanco con listones de distintas longitudes y marco en tono madera.",
-    "alt": "Panel decorativo de fondo blanco y listones verticales de madera de distintas longitudes",
-    "position": "center 36%",
-    "catalogue_index": 33,
-    "image": "trabajos/panel-listones",
-    "width": 1087,
-    "height": 1447
+    "slug": "cocina-negra-en-l",
+    "title": "Cocina negra a medida",
+    "category": "cocinas",
+    "label": "COCINA INSTALADA",
+    "description": "Cocina en L con alacenas y bajo mesadas negros e iluminación bajo los muebles superiores.",
+    "alt": "Cocina terminada en L con alacenas y bajo mesadas negros, ventana central y mesadas",
+    "position": "center 50%",
+    "image": "trabajos/cocina-negra-en-l",
+    "width": 1101,
+    "height": 1429
   }
 ]

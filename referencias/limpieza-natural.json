@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-29",
   "mode": "Herramienta integrada image_gen: precise-object-edit",
   "note": "Se parte de los originales y se conserva el entorno real. Limpieza localizada de basura, envoltorios y distracciones. Se revisó la estructura visible de los muebles. Las imágenes editadas y los originales se guardan dentro del proyecto.",
   "jobs": [
@@ -32,11 +32,11 @@
       "output": "dist/assets/trabajos/zapatero-rebatible.webp"
     },
     {
-      "slug": "panel-listones",
-      "input": "referencias/fotos-originales/panel-listones.webp",
-      "prompt": "Use case: precise-object-edit.\nAsset type: authentic carpentry portfolio photograph, subtle documentary cleanup.\nInput image 1 is the edit target. Edit this ORIGINAL photo very conservatively.\nPrimary request: make the existing scene a LITTLE tidier by removing isolated loose litter and small distracting items. KEEP THE ORIGINAL BACKGROUND and its natural character. Preserve original room, walls, floor material and wear, practical lighting, shadows, camera angle, crop and perspective. Keep natural camera softness and color. This must still look like the same real photo of a real workshop or installation, not a new staged or rendered product photograph.\nConstraints: furniture must remain unchanged in shape, count, proportions, material, color, panels, seams, hinges, handles, open drawer/door positions and small construction details. No backdrop replacement, no seamless studio, no new room, no new flooring or plaster walls, no sunbeams, no fake luxury setting, no heavy relighting, no new props, no text/watermark. Remove only the specific small distractions below; preserve the rest. Subject: the installed white rectangular divider panel with its brown timber frame and irregular-length vertical wooden strips, plus suspension uprights. Preserve the exact strip layout, counts, spacings and lengths, panel perspective, frame and mounting. Keep the original red/pink and white room walls, timber ceiling, cable trays, lights, glass below the panel, floor tiles and red chairs. Remove only the loose pile of clothing resting on the nearest red chair and a few small scraps from the floor. The sports advertising banner under the panel is an unrelated distracting background object: carefully remove the banner fabric ONLY, revealing the existing glass partition structure behind it with plausible continuation of that same real interior. Keep the original glass rail and metal clamps; do not invent a new support, wall or floor. Preserve the furniture and room's natural wear and colors; do not turn it into a showroom.",
-      "edited": "referencias/ediciones-naturales/panel-listones.png",
-      "output": "dist/assets/trabajos/panel-listones.webp"
+      "slug": "cocina-negra-en-l",
+      "input": "referencias/fotos-originales/cocina-negra-en-l.png",
+      "prompt": "Use case: precise-object-edit. This is a strict retouch of a real client's finished kitchen photo. Preserve the original photograph's EXACT camera framing, aspect ratio, cabinet panel and drawer seams, black finish, counter shape, sink, faucet, window, white backsplash, floor, reflections and slightly imperfect phone-photo quality. Do not redesign, straighten, upscale, reconstruct, beautify, relight or replace ANY architectural feature. Remove only a few loose items on the countertop: the yellow cloth next to the sink, the green detergent bottle, the central dish rack with plates, the basket and loose food/packaging to its right. Leave the water dispenser on the far right and keep all other details. Fill only the tiny spots where those objects stood with matching original counter and tile. The result should look like the same casual phone photo, with the same cabinetry geometry, after someone tidied the counter. No stylization, no showroom look.",
+      "edited": "referencias/ediciones-naturales/cocina-negra-en-l.png",
+      "output": "dist/assets/trabajos/cocina-negra-en-l.webp"
     }
   ]
 }
