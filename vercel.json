@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/assets/trabajos/zapatero-abatible.webp",
+      "destination": "/assets/trabajos/zapatero-rebatible.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/trabajos/zapatero-abatible-small.webp",
+      "destination": "/assets/trabajos/zapatero-rebatible-small.webp",
+      "permanent": true
+    }
+  ]
+}

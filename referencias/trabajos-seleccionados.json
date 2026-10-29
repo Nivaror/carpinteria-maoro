@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "alacena-puertas-abiertas",
+    "title": "Alacena blanca a medida",
+    "category": "cocinas",
+    "label": "ALACENA",
+    "description": "Alacena blanca con estantes interiores, cuatro puertas y un nicho lateral.",
+    "alt": "Alacena blanca de cocina con dos puertas centrales cerradas y las puertas de los extremos abiertas",
+    "position": "center 56%",
+    "source_photo_id": "AF1QipP0oPuxGcZpCjQ7unXEyh1Icchd7kiIr_2YJ8tQ",
+    "image": "trabajos/alacena-puertas-abiertas",
+    "width": 1445,
+    "height": 1088
+  },
+  {
+    "slug": "mueble-frentes-grises",
+    "title": "Guardado en blanco y gris",
+    "category": "cocinas",
+    "label": "COCINAS Y GUARDADO",
+    "description": "Mueble blanco con estantes abiertos, tapa y frentes en gris.",
+    "alt": "Mueble de guardado blanco con tapa y puertas grises, estantes abiertos y una puerta inferior abierta",
+    "position": "center 57%",
+    "image": "trabajos/mueble-frentes-grises",
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "slug": "tocador-espejo",
+    "title": "Tocador con espejo e iluminación",
+    "category": "muebles",
+    "label": "TOCADOR",
+    "description": "Tocadores blancos con espejo, iluminación superior y cajón.",
+    "alt": "Tocadores blancos con espejo e iluminación superior, con un cajón abierto en primer plano",
+    "position": "center 48%",
+    "catalogue_index": 26,
+    "image": "trabajos/tocador-espejo",
+    "width": 1088,
+    "height": 1445
+  },
+  {
+    "slug": "zapatero-rebatible",
+    "title": "Zapatero rebatible",
+    "category": "muebles",
+    "label": "GUARDADO",
+    "description": "Zapatero blanco con tres frentes rebatibles y tiradores metálicos.",
+    "alt": "Zapatero blanco con los tres frentes rebatibles abiertos y tiradores metálicos",
+    "position": "center 51%",
+    "source_photo_id": "AF1QipMOy8AwEgVbc948OKgTZwE7C1VouasneXeVuQ6w",
+    "image": "trabajos/zapatero-rebatible",
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "slug": "panel-listones",
+    "title": "Panel decorativo con listones",
+    "category": "muebles",
+    "label": "DETALLE A MEDIDA",
+    "description": "Panel blanco con listones de distintas longitudes y marco en tono madera.",
+    "alt": "Panel decorativo de fondo blanco y listones verticales de madera de distintas longitudes",
+    "position": "center 36%",
+    "catalogue_index": 33,
+    "image": "trabajos/panel-listones",
+    "width": 1087,
+    "height": 1447
+  }
+]

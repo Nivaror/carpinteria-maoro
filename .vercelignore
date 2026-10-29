@@ -1,0 +1,5 @@
+# El despliegue contiene los archivos públicos y su configuración.
+*
+!dist
+!dist/**
+!vercel.json
