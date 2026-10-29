@@ -67,7 +67,7 @@ La página carga tipografías de Google Fonts con alternativas del sistema. Las 
 
 ## Publicación desde GitHub
 
-La rama `main` de este repositorio es la fuente del sitio publicado en Vercel. Cada cambio confirmado en `main` inicia un despliegue de producción automático. El proyecto estático se sirve desde `dist/`, que contiene todas las fotos y demás recursos visibles. `referencias/` conserva originales y documentación para uso interno; no se publica en el sitio.
+La rama `main` de este repositorio conserva la versión vigente del código. La publicación actual en Vercel todavía no está conectada a GitHub: el equipo `nivaror` usa Hobby y Vercel no permite conectar repositorios privados de una organización en ese plan. Hasta definir un hosting compatible, los cambios en `main` **no** actualizan la página automáticamente. El proyecto estático se sirve desde `dist/`, que contiene todas las fotos y demás recursos visibles. `referencias/` conserva originales y documentación para uso interno; no se publica en el sitio.
 
 Antes de subir un cambio, ejecutá `npm run check`. Si se modifica el contenido o la galería, confirmá que los archivos actualizados de `dist/` también estén en el commit. Una vez que el dominio propio esté registrado, actualizá las URL absolutas de SEO indicadas arriba.
 
