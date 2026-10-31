@@ -286,6 +286,9 @@ details[open] > p { animation: detail-entrance .3s ease; }
 .contact-inner { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 90px); }
 .hero-copy, .hero-visual, .contact-copy, .contact-form-panel, .section-heading > *, .faq-section > * { min-width: 0; }
 .contact-details a, .field-help, .form-privacy { overflow-wrap: anywhere; }
+.contact-details .instagram-link { min-height: 44px; gap: 12px; color: var(--olive); }
+.contact-details .instagram-link span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.contact-details .instagram-link span:last-child { flex: none; }
 .round-link, .filter, .menu-toggle, .lightbox-close, .lightbox-prev, .lightbox-next { min-width: 44px; min-height: 44px; }
 .filter { padding-inline: 16px; }
 .text-link { min-height: 44px; }
