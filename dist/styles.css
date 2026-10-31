@@ -285,6 +285,11 @@ details[open] > p { animation: detail-entrance .3s ease; }
 .faq-section { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); }
 .contact-inner { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 90px); }
 .hero-copy, .hero-visual, .contact-copy, .contact-form-panel, .section-heading > *, .faq-section > * { min-width: 0; }
+.hero-instagram { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; margin-top: 11px; color: var(--olive); font-size: 11px; font-weight: 600; border-bottom: 1px solid #bfc3b2; }
+.hero-instagram .icon { width: 17px; height: 17px; }
+.hero-instagram span:last-child { font-size: 14px; transition: transform .2s; }
+.hero-instagram:hover span:last-child, .hero-instagram:focus-visible span:last-child { transform: translate(2px, -2px); }
+.hero-instagram + .hero-note { margin-top: 25px; }
 .contact-details a, .field-help, .form-privacy { overflow-wrap: anywhere; }
 .contact-details .instagram-link { min-height: 44px; gap: 12px; color: var(--olive); }
 .contact-details .instagram-link span:first-child { min-width: 0; overflow-wrap: anywhere; }
